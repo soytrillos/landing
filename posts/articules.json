@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "title": "Primer post!",
+        "description": "This is a wider card with supporting text below as a natural lead-in to additional content.",
+        "etiqueta": "Etiqueta 1",
+        "author": "",
+        "date": "2021/02/18",
+        "image" : {
+            "url": "https://informacionimagenes.net/wp-content/uploads/2019/11/8e52a15f6255853117f6482ba52d0077.jpg",
+            "alt": "Imagen prueba"
+        },
+        "readUrl": "pages/articule.html"
+    },
+    {
+        "id": 2,
+        "title": "Segundo post!",
+        "description": "Cualquier mensaje que se me ocurra en el momento, extension de este articulo para validar.",
+        "etiqueta": "Etiqueta 2",
+        "author": "",
+        "date": "2021/02/18",
+        "image" : {
+            "url": "https://thumbs.dreamstime.com/b/los-fondos-del-tumblr-de-california-verano-fijaron-con-las-palmas-el-cielo-y-la-puesta-sol-tarjeta-invitaci%C3%B3n-aviador-cartel-111944879.jpg",
+            "alt": "otra prueba"
+        },
+        "readUrl": "#"
+    }
+]
