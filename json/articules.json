@@ -24,5 +24,18 @@
             "alt": "otra prueba"
         },
         "readUrl": "#"
+    },
+    {
+        "id": 3,
+        "title": "Tercer post!",
+        "description": "Cualquier mensaje que se me ocurra en el momento, extension de este articulo para validar.",
+        "etiqueta": "Etiqueta 3",
+        "author": "",
+        "date": "2021/02/18",
+        "image" : {
+            "url": "https://informacionimagenes.net/wp-content/uploads/2019/06/lgbt-drawing-background-tumblr-2.jpg",
+            "alt": "otra prueba"
+        },
+        "readUrl": "#"
     }
 ]

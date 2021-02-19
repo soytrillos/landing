@@ -11,13 +11,27 @@ var posts = new Vue({
     data () {
       return {
         seen: true,
-        info: null
+        articu: null
       }
     },
     mounted () {
         axios
-          .get('posts/articules.json')
-          .then(response => (this.info = response.data))
+          .get('json/articules.json')
+          .then(response => (this.articu = response.data))
       }
 })
-   
+ 
+var experiences = new Vue({
+    el: '#experience',
+    data () {
+        return {
+          seen: true,
+          experien: null
+        }
+      },
+      mounted () {
+          axios
+            .get('json/experiences.json')
+            .then(response => (this.experien = response.data))
+        }
+})

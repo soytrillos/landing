@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "title": "Experiencias conseguidas",
+        "dateUp": "Febrero 11, 2021",
+        "description": "Lo que mejor se me da es dar soporte por que ayudo a los demas y resuelvo problemas.",
+        "author": "Simón Trillos",
+        "etc":[
+            {
+                "content": "Manejo intermedio de consola de comandos linux y windows."
+            },
+            {
+                "content": "Manejo intermedio de Base de datos SQL, mi favorita MySQL en consultas."
+            },
+            {
+                "content": "Programación en PHP, Javascript y python (en proceso...)."
+            },
+            {
+                "content": "Otras experiencias varias"
+            }
+        ],
+        "status": true
+    },
+    {
+        "id": 2,
+        "title": "Experiencias en proceso",
+        "dateUp": "Febrero 18, 2021",
+        "description": "Lo que mejor se me da es dar soporte por que ayudo a los demas y resuelvo problemas.",
+        "author": "Simón Trillos",
+        "etc":[
+            {
+                "content": "Manejo intermedio de consola de comandos linux y windows."
+            },
+            {
+                "content": "Manejo intermedio de Base de datos SQL, mi favorita MySQL en consultas."
+            }
+        ],
+        "status": false
+    }
+]
