@@ -16,7 +16,7 @@ var posts = new Vue({
     },
     mounted () {
         axios
-          .get('json/articules.json')
+          .get('https://api-articules-simon.herokuapp.com/articules')
           .then(response => (this.articu = response.data))
       }
 })

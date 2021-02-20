@@ -73,12 +73,12 @@
             <div class="col p-4 d-flex flex-column position-static">
               <strong class="d-inline-block mb-2 text-warning">{{ currency.etiqueta }}</strong>
               <h3 class="mb-0">{{ currency.title }}</h3>
-              <div class="mb-1 text-muted">{{ currency.date }}</div>
+              <div class="mb-1 text-muted">{{ currency.date }} by <cite title="Source Title">{{ currency.author }}</cite> </div>
               <p class="card-text mb-auto">{{ currency.description }}</p>
               <a v-bind:href="currency.readUrl" class="stretched-link">Continue reading</a>
             </div>
             <div class="col-auto d-none d-lg-block">
-              <img class="bd-placeholder-img" width="200" height="250" v-bind:src="currency.image.url" alt="currency.alt">
+              <img class="bd-placeholder-img" width="200" height="250" v-bind:src="currency.image" alt="currency.alt">
             </div>
           </div>
         </div>
