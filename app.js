@@ -20,6 +20,34 @@ var posts = new Vue({
           .then(response => (this.articu = response.data))
       }
 })
+
+var postsCount = new Vue({
+  el: '#countPos',
+  data () {
+    return {
+      count: null
+    }
+  },
+  mounted () {
+    axios
+      .get('https://api-articules-simon.herokuapp.com/articules/count')
+      .then(response => (this.count = response.data))
+  }
+})
+
+var artHtml = new Vue({
+  el: '#artHtml',
+  data () {
+    return {
+      info: null
+    }
+  },
+  mounted () {
+    axios
+      .get('https://api-articules-simon.herokuapp.com/articules/')
+      .then(response => (this.info = response.data))
+  }
+})
  
 var experiences = new Vue({
     el: '#experience',
